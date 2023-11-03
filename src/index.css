@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #100e12; */
+}
+
+@media (max-width:904px) {
+    .display_904_px{
+        display: none;
+    }
+    .heading_at_904_px{
+        text-align: center;
+        
+    }
+    .button_at_904_px{
+        margin: 0 auto;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width:576px) {
+    .navbar_at_576_px{
+        display: none;
+    }
+    .input_div_at_576_px{
+        flex-direction: column;
+        width: 100%;
+        justify-content: start;
+        align-items: start;
+    }
+    .input_at_576_px{ 
+        width: 100%;
+    }
+    .password_div_at_576_px{
+        flex-direction: column;
+        width: 100%;
+        justify-content: start;
+        align-items: start;
+    }
+    .password_at_576_px{ 
+        width: 100%;
+    }
+    .signup_email_576_px{
+        width: 100%;
+    }
+}
+
+@media (max-width: 425px) {
+    .signup_button_on_425px{
+        width: 100%;
+    }
+    .dasboarrd_at_425px{
+        text-align: center;
+    }
+}
+
+@media (max-width: 410px) {
+    .navbar_at_387px{
+        flex-direction: column;
+        gap: 15px;
+    }
+}
